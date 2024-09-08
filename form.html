@@ -4,11 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>PHP-Diary</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 
-    
+    <nav class="nav">
+        <div class="container">
+            <div class="nav_layout">
+                <a href="index.html" class="nav-brand">
+                    <svg class="nav-brand_image" viewBox="0 0 60.7863869853 60.7863869853">
+                        <path style="fill: currentColor" d="m45.589790239,30.3931934927c8.3928407749,0,15.1965967463-6.8037559715,15.1965967463-15.1965967463S53.9826310139,0,45.589790239,0H15.196554313C6.8037135382,0,0,6.8037559715,0,15.1965967463v30.3931934927c0,8.3928407749,6.8037135382,15.1965967463,15.196554313,15.1965967463h30.393235926c8.3928407749,0,15.1965967463-6.8037559715,15.1965967463-15.1965967463s-6.8037559715-15.1965967463-15.1965967463-15.1965967463Z"/>
+                    </svg>
+                    My Diary App
+                </a>
+                <div class="navbar">
+                    <ul>
+                        <li class="home"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="form.html" class="button">
+                        <svg class="button_icon" viewBox="0 0 44.4901230052 44.4901230053">
+                            <g style="fill:none; stroke:#f3f4f5;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px;">
+                                <circle cx="22.2450615026" cy="22.2450615026" r="21.2450615026"/>
+                                <line x1="22.2450615026" y1="13.4699274037" x2="22.2450615026" y2="31.0201956015"/>
+                                <line x1="31.0201956015" y1="22.2450658041" x2="13.4699274037" y2="22.2450572011"/>
+                            </g>
+                        </svg>
+                        New Entry
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="container">
+            <h1 class="main-headng">New Entry</h1>
+            <form method="post" action="form.html">
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title"/>
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer_heading">PHP diary project</h3>
+            <p class="footer_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga accusantium ut, possimus error provident totam quis. Asperiores corporis velit inventore modi officiis ipsum quae, neque, at molestias magnam recusandae.</p>
+        </div>
+        
+    </footer>
     
 </body>
 </html>
