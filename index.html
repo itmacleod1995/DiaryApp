@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP-Diary</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav_layout">
+                <a href="index.html" class="nav-brand">
+                    <svg class="nav-brand_image" viewBox="0 0 60.7863869853 60.7863869853">
+                        <path style="fill: currentColor" d="m45.589790239,30.3931934927c8.3928407749,0,15.1965967463-6.8037559715,15.1965967463-15.1965967463S53.9826310139,0,45.589790239,0H15.196554313C6.8037135382,0,0,6.8037559715,0,15.1965967463v30.3931934927c0,8.3928407749,6.8037135382,15.1965967463,15.196554313,15.1965967463h30.393235926c8.3928407749,0,15.1965967463-6.8037559715,15.1965967463-15.1965967463s-6.8037559715-15.1965967463-15.1965967463-15.1965967463Z"/>
+                    </svg>
+                    My Diary App
+                </a>
+                <div class="navbar">
+                    <ul>
+                        <li class="home"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="form.html" class="button">
+                        <svg class="button_icon" viewBox="0 0 44.4901230052 44.4901230053">
+                            <g style="fill:none; stroke:#f3f4f5;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px;">
+                                <circle cx="22.2450615026" cy="22.2450615026" r="21.2450615026"/>
+                                <line x1="22.2450615026" y1="13.4699274037" x2="22.2450615026" y2="31.0201956015"/>
+                                <line x1="31.0201956015" y1="22.2450658041" x2="13.4699274037" y2="22.2450572011"/>
+                            </g>
+                        </svg>
+                        New Entry
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="container">
+            <div class="search_div">
+                <input type="search" placeholder="Search..." class="search"></input>
+                <button id="nav_search_btn">Search</button>
+            </div>
+            <h1 class="main-heading">Entries</h1>
+            <div class="card">
+                <div class="card_image_container">
+                    <img class="card_image" src="00 - Design files/images/pexels-canva-studio-3153199.jpg">
+                </div>
+                <div class="card_desc_container">
+                    <div class="card_desc-time">Week 1</div>
+                    <h2 class="card_heading">PHP is amazing!</h2>
+                    <p class="card_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio enim facere aliquam saepe aspernatur autem nostrum qui earum porro nemo et vitae voluptatibus maxime quibusdam aliquid modi, molestiae possimus.</p>
+                </div>
+  
+            </div>
+            <div class="card">
+                <div class="card_image_container">
+                    <img class="card_image" src="00 - Design files/images/pexels-kaushal-moradiya-2781195.jpg">
+                </div>
+                <div class="card_desc_container">
+                    <div class="card_desc-time">Week 2</div>
+                    <h2 class="card_heading">I am learning PHP!</h2>
+                    <p class="card_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio enim facere aliquam saepe aspernatur autem nostrum qui earum porro nemo et vitae voluptatibus maxime quibusdam aliquid modi, molestiae possimus.</p>
+                </div>
+                
+            </div>
+
+            <div class="subsection">
+                <a href="#">
+                    <div class="subsection_card">
+                        <div class="col1">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="col2">
+                            <span>Available on</span> App Store
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="subsection_card">
+                        <div class="col1">
+                            <i class="fab fa-google-play"></i>
+                        </div>
+                        <div class="col2">
+                            <span>Available on</span> Google Play
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            <ul class='pagination'>
+                <li class="pagination_li"><a class="pagination_link arrow" href="#">←</a></li>
+                <li class="pagination_li"><a class="pagination_link pagination_li--active" href="#">1</a></li>
+                <li class="pagination_li"><a class="pagination_link" href="#">2</a></li>
+                <li class="pagination_li"><a class="pagination_link" href="#">3</a></li>
+                <li class="pagination_li"><a class="pagination_link arrow" href="#">→</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer_heading">PHP diary project</h3>
+            <p class="footer_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga accusantium ut, possimus error provident totam quis. Asperiores corporis velit inventore modi officiis ipsum quae, neque, at molestias magnam recusandae.</p>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
