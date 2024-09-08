@@ -61,6 +61,7 @@ html {
   border-radius: 0.5rem;
   line-height: 2.5rem;
   margin-right: 1rem;
+  border: none;
 }
 
 .button:hover {
@@ -138,12 +139,6 @@ html {
 @media (max-width: 992px) {
   .search,
   #nav_search_btn {
-    display: none;
-  }
-}
-
-@media (max-width: 1200px) {
-  .button {
     display: none;
   }
 }
@@ -353,6 +348,7 @@ footer::after {
 
 .form-group {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .form-group_label,
@@ -385,4 +381,9 @@ footer::after {
   border-left-width: 0;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+.form_submit {
+  display: flex;
+  justify-content: end;
 }
