@@ -167,7 +167,11 @@ html {
   overflow: hidden;
 }
 
+/**Credit to https://rafaltomal.com/tips/move-button-on-hover/ for the css code**/
 .card:hover {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  background-color: rgb(228, 225, 225);
 }
 
 @media (min-width: 768px) {
