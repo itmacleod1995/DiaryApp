@@ -118,6 +118,13 @@ html {
   margin: 0 auto;
 }
 
+.form-container {
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -364,7 +371,7 @@ footer::after {
   display: block;
   color: #113343;
   border-style: solid;
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(245, 233, 233);
   border-color: rgb(100, 100, 100);
   padding: 0.5rem 1rem;
   font-weight: bold;
@@ -399,4 +406,9 @@ footer::after {
 .content,
 .content-2 {
   display: flex;
+}
+
+.home:hover,
+.nav-link:hover {
+  color: #8ed8a9;
 }
