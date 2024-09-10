@@ -34,7 +34,7 @@ html {
 }
 
 .nav {
-  background-color: #113343;
+  background-color: black;
   height: 5rem;
 }
 
@@ -159,11 +159,15 @@ html {
   background-color: #f3f4f5;
   padding: 0rem;
   margin-bottom: 2rem;
+  margin-right: 1rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+.card:hover {
 }
 
 @media (min-width: 768px) {
@@ -316,7 +320,7 @@ i {
 }
 
 footer {
-  background-color: #113343;
+  background-color: black;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -386,4 +390,9 @@ footer::after {
 .form_submit {
   display: flex;
   justify-content: end;
+}
+
+.content,
+.content-2 {
+  display: flex;
 }

@@ -1,16 +1,14 @@
-<form method="POST" action="test.php">
-    <div>
-        <label>First Name:</label>
-        <input type="text" name="fn">
-    </div>
-    <div>
-        <label>Last Name:</label>
-        <input type="text" name="ln">
-    </div>
-    <div>
-        <input type="submit" name="submit">
-    </div>
-</form>
+<?php
+    header("Content-type: text/plain");
+?>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+</head>
+<body>
+    <h1>webpage</h1>
+</body>
 
 
 
